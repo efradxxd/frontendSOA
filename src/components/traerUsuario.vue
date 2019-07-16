@@ -33,7 +33,7 @@ export default {
       let result;
 
       axios
-        .get("http://localhost:3000/api/" + that.name)
+        .get("127.0.0.1:3000/api/" + that.name)
         .then(function(response) {
           // handle success
           //console.log(response.data);
